@@ -1,0 +1,107 @@
+
+
+body{
+    background-color:  black;
+    color: white;
+}
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(216, 12%, 8%);
+    font-family: paragraph;
+    font-size: 15px;
+    width: 375px;
+    border-radius: 20px;
+    margin-top: 30%;
+    padding: 30px;
+}
+
+.card.thankYou{
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+li{
+    display: flex;
+    list-style: none;
+    background-color: hsl(213, 19%, 18%);
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    
+}
+
+.active{
+    background-color: hsl(217, 12%, 63%);
+}
+
+li:hover{
+    background-color:hsl(25, 97%, 53%);
+}
+li:valid {
+    background-color: powderblue;
+  }
+
+div.star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    border-radius: 20px;
+    background-color: hsl(213, 19%, 18%);
+    margin-bottom: 10px;
+}
+
+
+
+
+button{
+    border-style: none;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.boton {
+    border-style: none;
+    align-items: center;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+}
+
+button:active {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+
+}
+
+#parrafo{
+    display: flex;
+    border-radius: 20px;
+    width: 200px;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+
+}
+
+.gracias{
+    width: 200px;
+}
