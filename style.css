@@ -1,0 +1,47 @@
+*{
+    padding: 15px;
+}
+body{
+    max-width: 80%;
+}
+.sedan{
+    background-color: #e28525;
+}
+
+.suv{
+    background-color: #016972;
+}
+
+.luxury{
+    background-color: #00403f;
+}
+
+.row{
+    color: white;
+}
+
+div {
+    padding: 30px;
+}
+
+.btn {
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    border: solid;
+    width: 70%;
+    padding: auto;
+    border-radius: 30px;
+}
+
+.btn:hover{
+    background-color: white;
+    border-style: none;
+    color: black;
+}
+
+@media (max-width: 1000px){
+    .row{
+        width: 350px;
+    }
+}
