@@ -3,6 +3,7 @@
 body{
     background-color:  black;
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 
@@ -76,6 +77,9 @@ button{
 }
 .boton {
     border-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
     background-color: hsl(25, 97%, 53%);
     color: white;
@@ -92,11 +96,11 @@ button:active {
 #parrafo{
     display: flex;
     border-radius: 20px;
-    width: 200px;
+    width: 300px;
     background-color: hsl(213, 19%, 18%);
     color: hsl(25, 97%, 53%);
     margin-top: 20px;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
     height: 30px;
 
@@ -104,4 +108,16 @@ button:active {
 
 .gracias{
     width: 200px;
+}
+
+.containerThankYou{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding: 20px;
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 20px;
+    margin-top: 20%;
+    
 }
