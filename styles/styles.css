@@ -1,7 +1,7 @@
 
 
 body{
-    background-color:  black;
+    background-color:  #141519;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
@@ -10,17 +10,13 @@ body{
 .card {
     display: flex;
     justify-content: center;
-    background-color: hsl(216, 12%, 8%);
+    background-color: #212832;
     font-family: paragraph;
     font-size: 15px;
     width: 375px;
     border-radius: 20px;
     margin-top: 30%;
     padding: 30px;
-}
-
-.card.thankYou{
-    align-items: center;
 }
 
 ul{
@@ -32,7 +28,7 @@ ul{
 li{
     display: flex;
     list-style: none;
-    background-color: hsl(213, 19%, 18%);
+    background-color: #252f38;
     align-items: center;
     justify-content: center;
     width: 40px;
@@ -95,29 +91,36 @@ button:active {
 
 #parrafo{
     display: flex;
+    align-items: center;
     border-radius: 20px;
+    margin-top: 30%;
     width: 300px;
     background-color: hsl(213, 19%, 18%);
     color: hsl(25, 97%, 53%);
-    margin-top: 20px;
+    /* margin-top: 20px; */
     flex-direction: row;
     justify-content: center;
     height: 30px;
 
 }
 
-.gracias{
-    width: 200px;
-}
-
 .containerThankYou{
     display: none;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 80%;
-    padding: 20px;
-    background-color: hsl(216, 12%, 8%);
+    background-color: #212832;
     border-radius: 20px;
-    margin-top: 20%;
-    
+    font-size: 15px;
+    width: 375px;
+    margin-top: 30%;
+    padding: 30px;
+}
+
+.col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    /* flex: 0 0 33.333333%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
